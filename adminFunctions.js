@@ -1,4 +1,4 @@
-//import { getOrdersList } from './app';
+import { getOrdersList } from './app';
 
 window.getOrders = function getOrders() {
     const orders = getOrdersList(0, 20);
