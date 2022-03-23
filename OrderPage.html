@@ -1,0 +1,51 @@
+<html> 
+    <head>
+        <title>Book Ordering</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script type="module" src="functions.js"></script>
+    </head>
+    <body >  
+        <div> 
+            <h2>Book Order Form</h2>
+        </div>
+        <form name="tblform" >
+            <table width="70%">
+                <tr>
+                    <th>Book Order</th>
+                    <th> </th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Book:</td>
+                    <td>
+                        <select id="bookList">
+                            <option value="1">Select Book</option>
+                            <option value="Moby Dick">Moby Dick</option>
+                            <option value="The Bible">The Bible</option>
+                            <option value="James Bond">James Bond</option>
+                            <option value="The Expanse">The Expanse</option>
+                            <option value="Wheel of Time">Wheel of Time</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="number" value="0" id="q1">
+                    </td>
+                    <td>
+                        <input type="text" id="p1">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <button type="submit" class="button" value="Submit Order" onclick="submitOrder()">
+                    </td>
+                    <td>
+                        <input type="reset" class="button" value="Clear">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

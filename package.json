@@ -1,0 +1,26 @@
+{
+  "name": "BookStore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "functions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottlynch0/BookStore.git"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottlynch0/BookStore/issues"
+  },
+  "homepage": "https://github.com/scottlynch0/BookStore#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "node-fetch": "^2.6.7",
+    "redis": "^4.0.4"
+  }
+}
